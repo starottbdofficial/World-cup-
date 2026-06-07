@@ -18,7 +18,7 @@ ORDERED_CATEGORIES = ["FIFA World cup", "News", "Sports", "Bangladesh", "Music",
 def get_category(name, group):
     name_up = name.upper()
     
-    # ১. FIFA World cup ক্যাটাগরি (BTV, SOMOY, T SPORTS, FIFA)
+    # ১. FIFA World cup ক্যাটাগরি (BTV, SOMOY, T SPORTS, FIFA+)
     if any(x in name_up for x in ["SOMOY", "BTV", "T SPORTS", "FIFA"]):
         return "FIFA World cup"
     
