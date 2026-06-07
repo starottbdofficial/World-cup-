@@ -33,10 +33,11 @@ def get_category(name, group):
 
 def fetch_m3u(url):
     channels = []
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    }
     try:
-        # স্ট্রিমিং মোডে রিড করা যাতে মেমোরি ও টাইমআউট সমস্যা না হয়
-        response = requests.get(url, stream=True, timeout=60)
-        
+        response = requests.get(url, headers=headers, stream=True, timeout=60)
         current_name = None
         current_logo = ""
         current_group = ""
@@ -62,7 +63,7 @@ def fetch_m3u(url):
                             "logo": current_logo, 
                             "url": line
                         })
-                current_name = None
+                current_name = None 
     except Exception as e:
         print(f"Error fetching {url}: {e}")
     return channels
@@ -70,24 +71,26 @@ def fetch_m3u(url):
 def write_m3u(all_channels):
     with open("FIFA-world-cup-4k.m3u", "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n")
-        f.write("# Playlist update dates and times: " + datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S') + "\n")
+        f.write(f"# Playlist update dates and times: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
         f.write("# Playlist owner: STAR OTT BD\n# Playlist Creator: MD shakib Hasan\n")
         f.write("# What's app: +8801610598422\n# Telegram: https://t.me/ibstvbdn")
         f.write("# Our official partner : IBS TV. STAR SHARE. OPPLEX.\n\n")
 
-        # সর্টিং (ক্যাটাগরি অর্ডার অনুযায়ী)
+        # সর্টিং ও ডুপ্লিকেট রিমুভ
         all_channels.sort(key=lambda x: ORDERED_CATEGORIES.index(x['group']) if x['group'] in ORDERED_CATEGORIES else 99)
-
+        
+        seen_urls = set()
         for ch in all_channels:
-            f.write(f'#EXTINF:-1 tvg-logo="{ch["logo"]}" group-title="{ch["group"]}",{ch["name"]}\n{ch["url"]}\n')
+            if ch['url'] not in seen_urls:
+                f.write(f'#EXTINF:-1 tvg-logo="{ch["logo"]}" group-title="{ch["group"]}",{ch["name"]}\n{ch["url"]}\n')
+                seen_urls.add(ch['url'])
 
 if __name__ == "__main__":
     final_channels = []
-    # ৩টি সোর্স থেকে ডেটা নেওয়া
     for source_name, url in M3U_SOURCES.items():
         print(f"Fetching from {source_name}...")
         final_channels.extend(fetch_m3u(url))
     
     write_m3u(final_channels)
     print("Playlist generated successfully!")
-                        
+                
