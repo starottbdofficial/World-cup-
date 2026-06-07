@@ -2,7 +2,7 @@ name: Generate IPTV Playlist
 
 on:
   schedule:
-    - cron: '0 * * * *' # প্রতি ঘণ্টায় আপডেট হবে
+    - cron: '0 * * * *'
   workflow_dispatch:
 
 jobs:
@@ -17,15 +17,17 @@ jobs:
         with:
           python-version: '3.10'
 
+      - name: Install dependencies
+        run: pip install requests
+
       - name: Generate Playlist
-        run: |
-          python3 generate_playlist.py
+        run: python3 generate_playlist.py
 
       - name: Commit and push
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add .
+          git add FIFA-world-cup-4k.m3u
           git commit -m "Auto-update IPTV Playlist"
           git push
           
