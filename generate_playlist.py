@@ -9,43 +9,38 @@ M3U_SOURCES = {
     "Akash": "https://raw.githubusercontent.com/srhady/Hady/refs/heads/main/akash_live.m3u"
 }
 
-FALLBACK_VIDEO = "https://raw.githubusercontent.com/ibstvofficial/IBS-TV-special-movies.m3u/refs/heads/main/1777291577865.mp4"
-FALLBACK_LOGO = "https://camo.githubusercontent.com/93929647baabb50606ccf95056c8ff42b3f2f9249c5364fa1e0f8b7dcef395f3/68747470733a2f2f626469786970747662642e636f6d2f6c6f676f2e706e67"
+# আপনার নির্ধারিত ক্যাটাগরি ম্যাপিং
+CATEGORY_MAP = {
+    "FIFA World cup": ["SOMOY", "BTV", "T SPORTS", "FIFA+"],
+    "News": ["NEWS", "BBC", "CNN", "AL JAZEERA", "CHANNEL 24", "JOMUNA", "INDEPENDENT"],
+    "Sports": ["SPORTS", "CRICKET", "FOOTBALL", "GOLF", "TEN", "ESPN"],
+    "Bangladesh": ["BD", "BANGLA", "DHAKA", "CHANNEL I", "ATN"],
+    "Music": ["MUSIC", "SONG", "GAAN", "MTV"],
+    "Kids": ["KIDS", "CARTOON", "NICK", "DISNEY", "POGO", "CBEEBIES"],
+    "Movie": ["MOVIE", "FILM", "HBO", "STAR MOVIES", "CINEMA"]
+}
 
-# আপনার নির্ধারিত ক্যাটাগরি অর্ডার
-ORDERED_CATEGORIES = ["FIFA World cup", "News", "Sports", "Bangladesh", "Music", "Kids", "Movie"]
+ORDERED_CATEGORIES = list(CATEGORY_MAP.keys())
 
 def get_category(name, group):
     name_up = name.upper()
+    group_up = (group or "").upper()
     
-    # ১. FIFA World cup ক্যাটাগরি (BTV, SOMOY, T SPORTS, FIFA+)
-    if any(x in name_up for x in ["SOMOY", "BTV", "T SPORTS", "FIFA"]):
-        return "FIFA World cup"
-    
-    # ২. অন্যান্য ক্যাটাগরি ম্যাপিং
-    mapping = {
-        "News": ["NEWS", "BBC", "CNN", "AL JAZEERA", "CHANNEL 24", "JOMUNA", "INDEPENDENT"],
-        "Sports": ["SPORTS", "CRICKET", "FOOTBALL", "GOLF", "TEN"],
-        "Bangladesh": ["BD", "BANGLA", "DHAKA", "CHANNEL I", "ATN"],
-        "Music": ["MUSIC", "SONG", "GAAN"],
-        "Kids": ["KIDS", "CARTOON", "NICK", "DISNEY", "POGO"],
-        "Movie": ["MOVIE", "FILM", "HBO", "STAR MOVIES"]
-    }
-    
-    for cat, keywords in mapping.items():
-        if any(k in name_up for k in keywords):
+    # ম্যাপিং অনুযায়ী ক্যাটাগরি নির্ধারণ
+    for cat, keywords in CATEGORY_MAP.items():
+        if any(k in name_up for k in keywords) or any(k in group_up for k in keywords):
             return cat
-            
-    return "Others"
+    return None # যদি কোনো ক্যাটাগরির সাথে না মিলে তবে বাদ যাবে
 
 def fetch_m3u(url):
     channels = []
     try:
-        resp = requests.get(url, timeout=20).text
-        # M3U পার্সিং
+        resp = requests.get(url, timeout=30).text
         for match in re.finditer(r'#EXTINF:-1 tvg-logo="(.*?)".*?group-title="(.*?)".*?,(.*?)\n(.*?)\n', resp):
-            logo, group, name, url = match.groups()
-            channels.append({"name": name, "group": get_category(name, group), "logo": logo, "url": url})
+            logo, group, name, url_link = match.groups()
+            cat = get_category(name, group)
+            if cat: # শুধুমাত্র আপনার নির্ধারিত ক্যাটাগরির চ্যানেলগুলো যুক্ত হবে
+                channels.append({"name": name, "group": cat, "logo": logo, "url": url_link})
     except: pass
     return channels
 
@@ -57,8 +52,8 @@ def write_m3u(all_channels):
         f.write("# What's app: +8801610598422\n# Telegram: https://t.me/ibstvbd\n")
         f.write("# Our official partner : IBS TV. STAR SHARE. OPPLEX.\n\n")
 
-        # সর্টিং (ক্যাটাগরি অনুযায়ী)
-        all_channels.sort(key=lambda x: ORDERED_CATEGORIES.index(x['group']) if x['group'] in ORDERED_CATEGORIES else 99)
+        # সর্টিং
+        all_channels.sort(key=lambda x: ORDERED_CATEGORIES.index(x['group']))
 
         for ch in all_channels:
             f.write(f'#EXTINF:-1 tvg-logo="{ch["logo"]}" group-title="{ch["group"]}",{ch["name"]}\n{ch["url"]}\n')
@@ -67,6 +62,5 @@ if __name__ == "__main__":
     final_channels = []
     for source_name, url in M3U_SOURCES.items():
         final_channels.extend(fetch_m3u(url))
-    
     write_m3u(final_channels)
-    
+        
