@@ -1,6 +1,7 @@
 import requests
 import datetime
 
+# আপনার দেওয়া JSON লিঙ্কগুলো (এগুলো যদি Matches স্ট্রাকচার ব্যবহার করে)
 JSON_URLS = [
     "https://raw.githubusercontent.com/srhady/tapmad-bd/refs/heads/main/tapmad_bd.json",
     "https://raw.githubusercontent.com/srhady/toffee-bd/refs/heads/main/toffee_playlist.json",
@@ -16,14 +17,29 @@ def get_channels():
     for url in JSON_URLS:
         try:
             data = requests.get(url, timeout=10).json()
-            for ch in data:
-                name = ch.get("name", "")
-                # ক্যাটাগরি সেট করা
+            
+            # যদি JSON-এ 'Matches' কি (key) থাকে
+            if "Matches" in data:
+                items = data["Matches"]
+            else:
+                items = data # যদি সরাসরি লিস্ট হয়
+            
+            for item in items:
+                name = item.get("VideoName", item.get("name", "Unknown Channel"))
+                stream_url = item.get("stream_url", "")
+                logo = item.get("ThumbnailStandard", item.get("logo", FALLBACK_LOGO))
+                
+                # ক্যাটাগরি লজিক
+                group = item.get("CategoryName", item.get("group", "Others"))
                 if "BTV" in name.upper() or "SOMOY" in name.upper():
-                    ch["group"] = "FIFA world cup 4k"
-                else:
-                    ch["group"] = ch.get("group", "General")
-                all_channels.append(ch)
+                    group = "FIFA world cup 4k"
+                
+                all_channels.append({
+                    "name": name,
+                    "stream_url": stream_url,
+                    "logo": logo,
+                    "group": group
+                })
         except Exception as e:
             print(f"Error fetching {url}: {e}")
     return all_channels
@@ -33,16 +49,15 @@ def create_m3u(channels):
         f.write("#EXTM3U\n")
         f.write(f"# Playlist update dates and times: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
         f.write("# Playlist owner: STAR OTT BD\n# Playlist Creator: MD shakib Hasan\n")
-        f.write("# What's app: +8801610598422\n# Telegram: https://t.me/ibstvbd\n")
+        f.write("# What's app: +8801610598422\n# Telegram: https://t.me/ibstvbdn")
         f.write("# Our official partner : IBS TV. STAR SHARE. OPPLEX.\n\n")
 
         # FIFA ক্যাটাগরি উপরে আনা
-        channels.sort(key=lambda x: x.get('group') != "FIFA world cup 4k")
+        channels.sort(key=lambda x: x['group'] != "FIFA world cup 4k")
 
         for ch in channels:
-            url = ch.get("stream_url") or FALLBACK_VIDEO
-            logo = ch.get("logo") or FALLBACK_LOGO
-            f.write(f'#EXTINF:-1 tvg-logo="{logo}" group-title="{ch.get("group")}",{ch.get("name")}\n')
+            url = ch["stream_url"] if ch["stream_url"] else FALLBACK_VIDEO
+            f.write(f'#EXTINF:-1 tvg-logo="{ch["logo"]}" group-title="{ch["group"]}",{ch["name"]}\n')
             f.write(f"{url}\n")
 
 if __name__ == "__main__":
