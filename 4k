@@ -1,0 +1,10 @@
+#EXTM3U
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWFejBxLPkswwRPgJAs1EeHzK8oJ3DkE9ZUQJ3AWa5Bw&s",Rai 1 (4K)
+https://dash2.antik.sk/live/test_rai_uno_tizen/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/TyC_Sports_logo.svg/3840px-TyC_Sports_logo.svg.png",TyC Sports
+http://daleplaytv.vip:80//live/4nd9wbtu/c5hrn9eFhfsa/81252.m3u8
+#EXTINF:-1,DAZN Combat
+https://dazn-combat-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-dazn-combat-rakuten/CDN/master.m3u8
+#EXTINF:-1,DAZN Ringside
+https://aegis-cloudfront-1.tubi.video/bfad29e2-5bee-44f3-8256-127324e8b106/playlist.m3u8
+
