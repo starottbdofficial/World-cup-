@@ -4,7 +4,7 @@ import re
 
 # সোর্স লিঙ্ক
 M3U_SOURCES = {
-    "Ayna": "https://raw.githubusercontent.com/sm-monirulislam/AynaOTT-auto-update-playlist/refs/heads/main/AynaOTT.m3u",
+    "Ayna": "https://raw.githubusercontent.com/ibstvofficial/Live-events/refs/heads/main/playlist.m3u",
     "IPTVOrg": "https://iptv-org.github.io/iptv/index.m3u",
     "Akash": "https://raw.githubusercontent.com/srhady/Hady/refs/heads/main/akash_live.m3u"
 }
