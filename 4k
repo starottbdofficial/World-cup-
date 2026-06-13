@@ -2,6 +2,19 @@
 #EXTINF:-1 tvg-logo="https://github.com/starottbdofficial/World-cup-/blob/main/Event%20.png?raw=true",FIFA Live Event (4K-8K)
 https://karim-medialive-906655021013-apse2.s3.ap-southeast-2.amazonaws.com/live/ch1/ch1.m3u8
 #EXTM3U
+#EXTINF:-1,Tapmad
+https://premierleagpl23.akamaized.net/hls/live/2107108/tapmad-P2s6L_FiN@L-UrU/master.m3u8
+#EXTINF:-1,Bioscope 1
+https://d1voy022wjnlk0.bioscopelive.com/out/v1/0bbe405e711143b8af5ee21b80b5b0cc/index.m3u8
+#EXTINF:-1,Bioscope 2
+http://193.47.62.41/hls/PPPPQQ.m3u8
+#EXTINF:-1,Toffee
+https://prod-cdn01-live.toffeelive.com/live/FIFA-2026-2/0/master_1024.m3u8
+#EXTINF:-1,Bein Sports 1
+https://pulltx.jdnzrgm.com/live/hd-en-6MvZ6BDgoEMCzZ6Ytv.m3u8?txSecret=a070f2669cf64273a60442ffd9b45138&txTime=6A2DF249
+#EXTINF:-1,Bein Sports Max 4K
+https://prod-fastly-eu-west-1.video.pscp.tv/Transcoding/v1/hls/bydEQp0Upl1qODZU4qpqADmNoX9xsqVzVnZY_EKfNBpqEuiSK9EW5vC336uky-9KUd-3lMgBw5IEd4F2WP1iOQ/non_transcode/eu-west-1/periscope-replay-direct-prod-eu-west-1-public/master_dynamic_highlatency.m3u8?type=live
+
 #EXTINF:-1 group-title="FIFA WC 2026 LIVE" tvg-logo="https://i.postimg.cc/0NYVSnkr/Gemini-Generated-Image-ykkw2cykkw2cykkw.png" , BEIN 1 FHD
 http://1.la5liga.store:80/play/oOuLyOr0l4zfSQqe-48swyrUC_d5JG7Wj1gX3MfuOaHcCaCD-hqEbP027yBVHqJ4
 #EXTINF:-1 group-title="FIFA WC 2026 LIVE" tvg-logo="https://i.postimg.cc/0NYVSnkr/Gemini-Generated-Image-ykkw2cykkw2cykkw.png" , Unite8 Sports 1 HD
