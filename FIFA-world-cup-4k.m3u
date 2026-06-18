@@ -1,5 +1,5 @@
 #EXTM3U
-# Playlist update dates and times: 2026-06-17 22:16:23
+# Playlist update dates and times: 2026-06-18 12:05:58
 # Playlist owner: STAR OTT BD
 # Playlist Creator: MD shakib Hasan
 # What's app: +8801610598422
@@ -1681,6 +1681,8 @@ https://cloudvideo.servers10.com:8081/8116/index.m3u8
 https://5dd3981940faa.streamlock.net/onkarentertainment/onkarentertainment/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/E9CCIpP.jpg" group-title="News",Online TV Nusantara (720p) [Not 24/7]
 https://5bf7b725107e5.streamlock.net/onlinetvnusantara/onlinetvnusantara/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/4IjhXKm.png" group-title="News",Opinionsur (720p)
+https://183.bozztv.com/giatv/giatv-opinionsurc/opinionsurc/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Ora_News_%28Albania%29.svg/960px-Ora_News_%28Albania%29.svg.png" group-title="News",Ora News (720p)
 https://live1.mediadesk.al/oranews.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/nSQWo49.png" group-title="News",Ost West [Not 24/7]
@@ -2525,10 +2527,18 @@ https://nl1.nghk.ai/AS10HRHD/index.m3u8
 https://nl1.nghk.ai/ArenaSport10HD/index.m3u8
 #EXTINF:-1 tvg-logo="" group-title="Sports",Arena Sport Adrenalin (1080p)
 https://nl1.nghk.ai/SK3SRHD/index.m3u8
+#EXTINF:-1 tvg-logo="https://imgur.com/csv6YsL" group-title="Sports",Arena Sport Premium 1 BH (1080p)
+https://nl1.nghk.ai/ArenaPremium1BH/index.m3u8
+#EXTINF:-1 tvg-logo="https://imgur.com/ztOmQ7P" group-title="Sports",Arena Sport Premium 2 BH (720p)
+https://nl1.nghk.ai/ArenaPremium2BH/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/gpqemLf.png" group-title="Sports",Arena Sport Premium 3 BH (720p)
+https://nl1.nghk.ai/ArenaPremium3BH/index.m3u8
 #EXTINF:-1 tvg-logo="" group-title="Sports",Arena Sport Tenis (720p)
 https://nl1.nghk.ai/SK4SRHD/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/XjzK3gZ.png" group-title="Sports",Arryadia (720p)
 https://stream-lb.livemediama.com/arryadia/hls/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/XjzK3gZ.png" group-title="Sports",Arryadia (480p)
+https://snrtworker.kharazbelaid.workers.dev/?id=arryadia.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/fYNx6Fk1/image-removebg-preview-1.png" group-title="Sports",Arryadia HD 1 (1080p)
 https://stream-lb.livemediama.com/arryadia-hd-01/hls/master.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/jPFCVFNS/image-removebg-preview-3.png" group-title="Sports",Arryadia HD 2 (1080p)
@@ -2555,6 +2565,8 @@ https://5c7b683162943.streamlock.net/live/ngrp:bahrainsportstwo_all/playlist.m3u
 https://5bf7b725107e5.streamlock.net/bantentv/bantentv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/d8x7c8i.png" group-title="Sports",Barca TV
 https://live20.bozztv.com/dvrfl06/astv/astv-barca/index.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/BeIN_Sports_logo_%28vertical_version%29.svg/500px-BeIN_Sports_logo_%28vertical_version%29.svg.png" group-title="Sports",beIN Sports USA (720p)
+http://23.237.104.106:8080/USA_BEIN/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/HT49GPmB/XTRA-2.png" group-title="Sports",beIN SPORTS XTRA (1080p)
 https://bein-xtra-bein.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/V562tpO.png" group-title="Sports",beIN Sports XTRA en Espanol (1080p)
@@ -2579,6 +2591,8 @@ http://coninfo.net:1935/9linklivert/smil:9linkmultibr.smil/playlist.m3u8
 https://video01.soultv.com.br/internacional/internacional/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/eb/Canal%2BFoot.png" group-title="Sports",Canal+ Foot
 https://test.946985.filegear-sg.me/proxy/ef3174f16d4557d2
+#EXTINF:-1 tvg-logo="https://i.imgur.com/EOXnU15.png" group-title="Sports",Canal+ Sport (1080p)
+http://151.80.18.177:86/Canal+_sport_HD/index.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/6/64/Caz%C3%A9TV_logo.svg/1280px-Caz%C3%A9TV_logo.svg.png" group-title="Sports",CazeTV (1080i)
 https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/Caze_TV.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/3mEdjuq.png" group-title="Sports",CBC Sport HD [Geo-blocked]
@@ -3173,8 +3187,6 @@ https://test.946985.filegear-sg.me/proxy/b57707d48ea3395e
 https://test.946985.filegear-sg.me/proxy/2e5a3cb38f72a6dd
 #EXTINF:-1 tvg-logo="https://i.imgur.com/2HmCAm5.png" group-title="Sports",Sport TV7
 https://test.946985.filegear-sg.me/proxy/a8c7608240dec023
-#EXTINF:-1 tvg-logo="https://i.imgur.com/NDbWxqF.png" group-title="Sports",Sportdigital FUSSBALL HD (1080p)
-https://live20.bozztv.com/akamaissh101/ssh101/sddd1hdde/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/0CJGGgd.png" group-title="Sports",Sportitalia (1080p)
 https://edge-001.streamup.eu/sportitalia/sihd_abr/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/RSwnoLn.png" group-title="Sports",Sportitalia 24 (720p) [Geo-blocked]
@@ -4071,6 +4083,8 @@ https://tele-stream.telecasa.net/live/st3/maimontv-hd/index.m3u8
 https://shd-amg-fast.edgenextcdn.net/tx019/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/asD5y7i.png" group-title="Music",Makao TV (1080i)
 https://live.obslivestream.com/makaomux/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/U849xvX.png" group-title="Music",Maqui TV
+https://streamyes.alsolnet.com/maquiradio/live/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/F2PzEaw.png" group-title="Music",Marina TV (1080p)
 https://ffs.gulfsat.com/Marina-TV-HD/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/y0h8dlX.png" group-title="Music",Mas23 TV
@@ -4215,6 +4229,8 @@ https://jmp2.uk/plu-620fdc7d8a36fc000710e3ba.m3u8
 https://jmp2.uk/plu-63988b61c8d285000798a22a.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/75/Murr_tv.png" group-title="Music",MTV Lebanon (1080p)
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mtv-lebanon/b8ebb2a5affb812f1541712adde10e26/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/3UByLqb.png" group-title="Music",MTV Live (720p)
+http://23.237.104.106:8080/USA_MTV_LIVE/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/qWf8Zku.png" group-title="Music",MTV Originals
 https://jmp2.uk/plu-5f1aadf373bed3000794d1d7.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/5caf325764025859afdd6c4d/colorLogoPNG.png" group-title="Music",MTV Pluto TV
@@ -4407,6 +4423,8 @@ https://pmchls.wns.live/hls/stream.m3u8
 https://pmcrohls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/LQB6G3s.jpg" group-title="Music",POP World TV (720p)
 https://janus.xpbroadcasting.com:8443/hls/popworld.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/ZEBOeGe.png" group-title="Music",Portalfoxmix
+https://panel.tvstream.cl:1936/8040/8040/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/bkQrXjB.png" group-title="Music",Power 101.7 FM (720p)
 https://vcp11.myplaytv.com/powerfm/powerfm/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/QpPteBO.png" group-title="Music",Power Dance (1080p)
@@ -4553,6 +4571,8 @@ https://eu1.servers10.com:8081/8090/index.m3u8
 https://video03.logicahost.com.br/rfptv/rfptv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/hQ0Q6nE.png" group-title="Music",RHT Guadeloupe (720p)
 https://edge12.vedge.infomaniak.com/livecast/ik:livehautetension/manifest.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/nTVJcFA.png" group-title="Music",Ritoque TV (720p)
+https://streaming.purum.cl/ritoquetv/index.m3u8
 #EXTINF:-1 tvg-logo="https://rmtv.bg/img/logo.png" group-title="Music",RMTV (288p)
 https://transcoder1.bitcare.eu/streaming/rimextv/rmtv.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/Y9miDQo.png" group-title="Music",Rock TV (1080p) [Not 24/7]
@@ -4593,6 +4613,8 @@ http://glasdrine.cutuk.net:8081/433ssdsw/GlasDrineSD/playlist.m3u8
 https://vidartv2.todostreaming.es/live/radiovida-emisiontvhd.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/Z7HUU7V.png" group-title="Music",RU.TV (1080p)
 https://bl.rutube.ru/livestream/b1eb8e90d7e636677b3eb73b4fcbb717/index.m3u8?e=2069285076&s=d-E-bxKy2v3EEJ94RQX9CA&scheme=https
+#EXTINF:-1 tvg-logo="https://i.imgur.com/avIcT83.png" group-title="Music",Ruidos FM
+https://tv1.ruidosfm.cl/ruidostv/stream.m3u8
 #EXTINF:-1 tvg-logo="" group-title="Music",Saga Music (1080p)
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/saga-music/master.m3u8?ads.vf=Qu3rnC7fGUG
 #EXTINF:-1 tvg-logo="https://i.imgur.com/3IhYd7G.jpg" group-title="Music",Salsa Gorda Television (1080p) [Not 24/7]
@@ -4607,6 +4629,8 @@ https://mumbai-edge.smartplaytv.in/SanaPlusHD/index.m3u8
 http://103.213.31.109:90/SangeetBhojpuri/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SANGEET_MARATHI/images/LOGO_HD/image.png" group-title="Music",Sangeet Marathi (720p)
 https://cdn-3.pishow.tv/live/1229/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/oYQoWAB.png" group-title="Music",Sensacion Costa
+https://tvcosta.gleeze.com/memfs/4d48db09-0b1e-4803-8da7-22be388bdd7e.m3u8
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/channel/0d5b07555b2d4415aa9f145273095ed7.png" group-title="Music",Shemaroo Filmi Gaane (1080p)
 http://103.213.31.109:90/ShemarooFilmiGaane/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="Music",Shemaroo Filmigaane (1080p)
@@ -4853,6 +4877,8 @@ https://6n3yope4d9ok-hls-live.5centscdn.com/vaanavil/TV.stream/playlist.m3u8
 https://59a564764e2b6.streamlock.net/vallenato/vallenatom/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/CD1PffA.png" group-title="Music",VAM Vid's & More (720p)
 https://sincerecloud.stream/loadbalancer/public/J9EmQQGf.m3u8
+#EXTINF:-1 tvg-logo="https://vantagetv.ee/vantage_classic.png" group-title="Music",Vantage Classic (720p)
+https://cdn-backup.lulzy.eu/vclassic_stream/index.m3u8
 #EXTINF:-1 tvg-logo="https://vantagetv.ee/vantage_dance.png" group-title="Music",Vantage Dance (720p)
 https://hls.vantagetv.ee/vdance_stream/main_stream.m3u8
 #EXTINF:-1 tvg-logo="https://vantagetv.ee/vantage_music.png" group-title="Music",Vantage Music (720p) [Geo-blocked]
@@ -5503,6 +5529,8 @@ https://sl.vodep39240327.workers.dev/channel/SONY+YAY.m3u8
 https://live-uae.spacetoongo.com/ST_Live_UAE/hls/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/NIsgNvI.png" group-title="Kids",SpongeBob Schwammkopf (720p)
 https://jmp2.uk/plu-5d00e8adaab96b5635b2a005.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/eE9FzEP.png" group-title="Kids",Starz Kids & Family (1080p)
+http://23.237.104.106:8080/USA_STARZ_FAMILY/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/o9kLpAL.png" group-title="Kids",STS kids (1080p)
 http://31.148.48.15/STS_Kids_HD/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/IWcQfF2.png" group-title="Kids",Super! iCarly
@@ -5699,6 +5727,8 @@ https://live.15plusmg.ru/memfs/3546fc09-2eba-459d-9a1f-9a2fc39e50bd.m3u8
 http://23.239.31.26:8989/amc/index.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png" group-title="Movie",AMC Europe
 https://dokagents.site/live/amc/mono.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png" group-title="Movie",AMC Europe Bulgary (720p)
+http://45.136.153.199/AMC/mono.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/a8ZBGBw.png" group-title="Movie",Amedia Hit (720p)
 http://31.148.48.15/Amedia_HIT_HD/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/UUjehw9.png" group-title="Movie",Amedia Premium (720p)
@@ -5765,6 +5795,8 @@ https://ixmediasrl-serially-1-it.rakuten.wurl.tv/playlist.m3u8
 https://cafefhls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/S4xqZgV.png" group-title="Movie",Canal Cine Dios
 https://canal.mediaserver.com.co/live/cinedios.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/fvPoNEa.jpeg" group-title="Movie",Canal+ Cinemas (720p)
+http://151.80.18.177:86/Canal+_cinema_HD/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/rFiaef7.png" group-title="Movie",CCTV-6 (1080p)
 http://69.30.245.50/live/cctv6.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/rEttkKm.png" group-title="Movie",CCTV-Storm Theater (1080p)
@@ -5949,6 +5981,8 @@ https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae0
 https://dz05z8iljgvbe.cloudfront.net/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="Movie",FilmRise Z Nation France (720p)
 https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883103
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Hnwsh5d.png" group-title="Movie",FilmUADrama (1080p)
+http://88.99.215.227/FilmUADrama/index.m3u8
 #EXTINF:-1 tvg-logo="" group-title="Movie",Filmzie (720p)
 https://filmzie-filmzie-1-eu.rakuten.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/rtL5L81.png" group-title="Movie",Flicks of Fury
@@ -6015,6 +6049,8 @@ https://stream.hrbtv.net/yspd/playlist.m3u8
 https://live-fi.tvkaista.net/hero/live.m3u8?hd=true
 #EXTINF:-1 tvg-logo="" group-title="Movie",History Film Channel (1080p)
 https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/0NPOY54L3YURIZHAY396/hls3/now,-1m/m.m3u8?ads.vf=qEyxmCFMVta
+#EXTINF:-1 tvg-logo="https://i.imgur.com/jl3MNPe.png" group-title="Movie",Hit HD (1080p)
+http://hls127.freeott.top:8080/XitHD/video.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/kyE3vXf.png" group-title="Movie",HITS Movies HD (720p)
 https://cdn10jtedge.indihometv.com/atm/DASH/hitsmovie/manifest.mpd
 #EXTINF:-1 tvg-logo="" group-title="Movie",Hollywood Classic Movies (1080p)
@@ -6059,8 +6095,12 @@ http://83.167.253.107/hdmi1_ext
 http://88b9da48.kazmazpaz.ru/iptv/XVU58NBPX2LUMP/6088/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/Ge8vkQM.png" group-title="Movie",KinoHit
 https://stream8.cinerama.uz/1055/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/nNjMyAq.png" group-title="Movie",Kinopokaz HD (1080p)
+http://hls127.freeott.top:8080/Kinopokaz_HD/video.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/s0UYT8T.png" group-title="Movie",Kinopremyera
 https://stream8.cinerama.uz/1207/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/iao7zLZ.png" group-title="Movie",Kinoseriya (1080p)
+http://hls127.freeott.top:8080/Kinoseriya_HD/video.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/ZRaWqxj.png" group-title="Movie",Kinosvidanie
 https://stream8.cinerama.uz/1203/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/emH1BgC.png" group-title="Movie",Kinoteatr (1080p)
@@ -6177,6 +6217,8 @@ https://appletree-mytime-samsungmexico.amagi.tv/playlist.m3u8
 https://appletree-mytimespain-rakuten.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="Movie",Mytime Movies (1080p)
 https://mytimefrance-rakuten-samsung.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/7M1J42A.png" group-title="Movie",Nash Kinomir (576p)
+http://hls127.freeott.top:8080/Nash_kinomir/video.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/IOxIsPj.png" group-title="Movie",Nashe Novoe Kino
 https://stream8.cinerama.uz/1051/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/WXRBuOW.png" group-title="Movie",NETV Toronto (720p)
@@ -6645,6 +6687,8 @@ http://149.71.34.166:8000/play/a059/index.m3u8
 https://livetv.mylifeisgood.net.ru/channels/strwc.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/TXtY5eM.png" group-title="Movie",START World
 https://livetv.mylifeisgood.net.ru/channels/strvf.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/ghzzKoT.png" group-title="Movie",Starz Cinema (720p)
+http://23.237.104.106:8080/USA_STARZ_CINEMA/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/yOPB7JB.png" group-title="Movie",Studio One + (720p)
 https://cdn-1.pishow.tv/live/276/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="Movie",Summer of Movies
@@ -6655,6 +6699,8 @@ https://amg13231-actve-amg13231c4-samsung-au-2990.playouts.now.amagi.tv/playlist
 https://amg13231-actve-amg13231c4-samsung-nz-3093.playouts.now.amagi.tv/playlist/amg13231-actvefast-surfer-samsungnz/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/Suriyan-tv-logo_2000_X_1125_Transpharent.png" group-title="Movie",Suriyan TV (576p)
 https://stream.sscloud7.com/live/suriyantv/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/4fMWhUE.png" group-title="Movie",SYFY (720p)
+http://23.237.104.106:8080/USA_SYFY/index.m3u8
 #EXTINF:-1 tvg-logo="" group-title="Movie",T2 Movies
 https://ca-rt.onetv.app/T2Movies/index-0.m3u8?token=onetv202
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/fa/thumb/f/f2/IRIB_tamashaTV.svg/960px-IRIB_tamashaTV.svg.png" group-title="Movie",Tamasha
