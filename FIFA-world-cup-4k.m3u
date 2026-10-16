@@ -1,5 +1,5 @@
 #EXTM3U
-# Playlist update dates and times: 2026-10-15 23:30:35
+# Playlist update dates and times: 2026-10-16 02:50:03
 # Playlist owner: STAR OTT BD
 # Playlist Creator: MD shakib Hasan
 # What's app: +8801610598422
@@ -1035,6 +1035,8 @@ https://c4635.cdn.xsg.ge/c4635/TVFormula/index.m3u8
 https://tvsen6.aynaott.com/foxnews/index.m3u8
 #EXTINF:-1 tvg-logo="https://radio.foxnews.com/wp-content/uploads/2017/10/default_logo-150x150.png" group-title="News",Fox News Radio (720p)
 https://radiovid.foxnews.com/hls/live/661547/RADIOVID/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/FhMQrJk.png" group-title="News",Fox Sports News (1080p)
+https://skynewsau-live-premium.akamaized.net/hls/live/2105307/foxsportsnews/live_1080p.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/u8N6uoj.png" group-title="News",France 24 (1080p)
 https://live.france24.com/hls/live/2037179-b/F24_FR_HI_HLS/master_5000.m3u8
 #EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_FRANCE_24/images/LOGO_HD/image.png" group-title="News",France 24 Arabic (1080p)
@@ -2753,6 +2755,8 @@ https://kwtsplta.cdn.mangomolo.com/spl/smil:spl.stream.smil/chunklist.m3u8
 http://45.4.1.201:8000/play/a1ai/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/2fziU2B.png" group-title="Sports",L1 Max (1080p)
 http://190.93.224.42/LIGA-1-MAX/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/t35zhM9.png" group-title="Sports",L'Equipe (1080p)
+https://dq37unyetkpcz.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-m04j89j7k5gtp/LEquipe_FR.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/ti5Fg5D.png" group-title="Sports",La Potente Radio TV
 https://latamvdo.com:3626/hybrid/play.m3u8
 #EXTINF:-1 tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_m_xSJFydxZ9QBU-85OuchjmzS0Bo0_Tukmk7to8hBfyl8=s512-c-k-c0x00ffffff-no-rj" group-title="Sports",Lacrosse TV (720p)
@@ -3091,6 +3095,10 @@ https://d2xeo83q8fcni6.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d2
 https://636ffd31f0e12.streamlock.net/RacingStream1/RacingStream1/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/TxQvFnQ.png" group-title="Sports",Sky Racing 2 (720p) [Geo-blocked]
 https://skylivetab-new.akamaized.net/hls/live/2038781/sky2/index.m3u8
+#EXTINF:-1 tvg-logo="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1306.png" group-title="Sports",Sky Sports F1 (720p)
+https://cdn.stmify.com/out/v1/SKY_SPORTS_F1/index.m3u8
+#EXTINF:-1 tvg-logo="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1333.png" group-title="Sports",Sky Sports NFL (720p)
+https://cdn.stmify.com/out/v1/SKY_SPORTS_ACTION/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/8bzAfgK.png" group-title="Sports",Slopes TV (720p)
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=2241
 #EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SPORTS_TEN_1/images/LOGO_HD/image.png" group-title="Sports",Sony Sports Ten 1 (576p)
@@ -4886,7 +4894,7 @@ https://hls-1zdhtxpm-livepush.akamaized.net/live_cdn/nsM12Xw0C1xXdJ/em0Wx71z-ec6
 #EXTINF:-1 tvg-logo="https://i.imgur.com/1iOAl2j.png" group-title="Music",TMA (1080p)
 http://hls.tmacaraibes.com/live/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.maxx-xs.nl/images/assets/3/c/3c123778ef66464786705dc4138303ec/COV/cover_l_01.png" group-title="Music",TMF (1080p)
-https://tmf-nl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-yourchannels-10-restreaming/bitok/eyJzdGlkIjoiMGMzZGFhOGYtYjNhMC00Njk1LThkZTktZWNmNmVmNzRmMzY4IiwibWt0IjoibmwiLCJjaCI6IjEwIiwicHRmIjo1fQ%3D%3D/mpgmedia/TMF/TMF_NL/TMF_NL.m3u8
+https://raw.githubusercontent.com/racitonsen/RacIPTV/refs/heads/main/streams/TMF.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/O1c6wpt.png" group-title="Music",Today Radio (720p)
 https://stream.rtl.lu/data/live/tele/rtltodayradio/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/UJqbKEC.png" group-title="Music",Top TV (Serbia) (1080p)
@@ -5011,8 +5019,6 @@ https://60417ddeaf0d9.streamlock.net/montemorelos/videomontemorelos/playlist.m3u
 https://59ef525c24caa.streamlock.net/tvurbano/tvurbano/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/PXGqyLn.png" group-title="Music",V2BEAT TV (720p) [Not 24/7]
 https://abr.de1se01.v2beat.live/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logaekranowe/images/e/eb/V90_%282026-.n.v.%29.png/revision/latest?cb=20260129212848&path-prefix=pl" group-title="Music",V90 (1080p)
-http://57.128.231.171:8080/228/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/WIACJSy.png" group-title="Music",V Classic TV (720p)
 https://5eaccbab48461.streamlock.net:1936/8112/8112/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Vaanavil_TV.png" group-title="Music",Vaanavil TV (720p)
@@ -7285,6 +7291,8 @@ https://sltwohls.wns.live/hls/stream.m3u8
 https://stream.smotrim.ru/hls/fasttv03/playlist_3.m3u8
 #EXTINF:-1 tvg-logo="" group-title="Movie",Sony Canal Novelas
 https://a89829b8dca2471ab52ea9a57bc28a35.mediatailor.us-east-1.amazonaws.com/v1/master/0fb304b2320b25f067414d481a779b77db81760d/CanelaTV_SonyCanalNovelas/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s179440_ld_h15_aa.png?lock=720x540" group-title="Movie",Sony Max 1
+http://27.116.22.53:5001/live/3418.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/gqUYk6C.png" group-title="Movie",Sony Max 2 (576p)
 http://107.167.16.138/sonymax2/index.m3u8?token=test
 #EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s157590_ld_h15_aa.png?lock=720x540" group-title="Movie",Sony Max (576p) [Geo-blocked]
